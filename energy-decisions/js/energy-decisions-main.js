@@ -14,8 +14,8 @@ const simOptions = {
   // These credits will appear in the About dialog, accessed from the PhET menu in the navigation bar.
   // All credits fields are optional, see joist.AboutDialog.
   credits: {
-    leadDesign: 'Maya Millard',
     softwareDevelopment: 'Thomas Hujon',
+    leadDesign: 'Maya Millard',
     team: 'Jason Donev, Ryleigh Heck, Thomas Hujon, Maya Millard',
     qualityAssurance: 'Luisa, Matthew, Andres, Diego',
     graphicArts: 'Ryleigh Heck',

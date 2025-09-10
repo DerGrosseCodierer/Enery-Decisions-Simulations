@@ -6,13 +6,12 @@ import getStringModule from '../../chipper/js/getStringModule.js';
 import energyDec from './energyDec.js';
 
 type StringsType = {
-  'example-sim': {
+  'energy-decisions': {
     'titleStringProperty': 'Energy Decisions';
   };
   'screen': {
     'magnetsStringProperty': 'Energy Decisions';
   };
-  'magnetControlsStringProperty': 'Energy Decisions';
 };
 
 const energyDecStrings = getStringModule( 'EXAMPLE_SIM' ) as StringsType;
