@@ -13,3 +13,6 @@
 [submodule "scenery"]
 	path = scenery
 	url = C:/Program Files/Git/scenery
+[submodule "sun"]
+	path = sun
+	url = C:/Program Files/Git/sun
