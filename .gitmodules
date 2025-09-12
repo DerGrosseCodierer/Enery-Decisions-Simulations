@@ -4,3 +4,6 @@
 [submodule "joist"]
 	path = joist
 	url = C:/Program Files/Git/joist
+[submodule "phet-core"]
+	path = phet-core
+	url = C:/Program Files/Git/phet-core
