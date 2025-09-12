@@ -7,9 +7,7 @@
  * @author Steele Dalton (PhET Interactive Simulations)
  */
 
-import { DragListener, Image, Node, Text, VBox, HBox } from '../../../../scenery/js/imports.js';
-import PhetFont from '../../../../scenery-phet/js/PhetFont.js';
-import Panel from '../../../../sun/js/Panel.js';
+import { Image, Node} from '../../../../scenery/js/imports.js';
 import exampleSim from '../../energyDec.js';
 import RectangularPushButton from '../../../../sun/js/buttons/RectangularPushButton.js';
 import but_res from '../../../images/buttons/button_rese.js';
@@ -56,15 +54,13 @@ class ActionButtons extends Node {
 
       //Button Content
       content: new Image(but_res),
-      //content: new Text( 'RESET', {font: new PhetFont( 20 )} ),
       scale: 0.1, 
       baseColor: 'grey',
       centerX: reset_x,
       bottom: reset_y,
       xMargin: 10,
       yMargin: 10,
-      //Action of the buttons
-
+      //Action of the button
       listener: () => {
         
         model.action = 'reset'
@@ -74,12 +70,9 @@ class ActionButtons extends Node {
       
     } );
 
-    //this.addChild(stage_display);
     this.addChild(back_but);
     this.addChild(reset_but);
 
-
-    
     const scaleX = 1;
     const scaleY = 1;
     this.scale( scaleX, scaleY );
