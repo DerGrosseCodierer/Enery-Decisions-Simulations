@@ -1,3 +1,6 @@
 [submodule "axon"]
 	path = axon
 	url = C:/Program Files/Git/axon
+[submodule "joist"]
+	path = joist
+	url = C:/Program Files/Git/joist
