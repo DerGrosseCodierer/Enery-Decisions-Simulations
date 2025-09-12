@@ -7,3 +7,6 @@
 [submodule "phet-core"]
 	path = phet-core
 	url = C:/Program Files/Git/phet-core
+[submodule "scenery-phet"]
+	path = scenery-phet
+	url = C:/Program Files/Git/scenery-phet
